@@ -1,1 +1,61 @@
-/*  your css code here. If applicable */
+/* Reset some default styles for HTML elements */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #011e29;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.latest-news-section {
+    background-color: #011e29;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+.latest-news-section h2 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.pictorial-news-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pictorial-news-section h3 {
+    color: #011e29;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
